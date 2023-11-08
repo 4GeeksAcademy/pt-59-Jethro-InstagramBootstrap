@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="styles.css" />
+	  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+     
+    
+    <title>Instagram Photo with Bootstrap</title>
+     </head>
+
+  <body>                 
+   
+    <nav class="navbar bg-body-tertiary d-flex">
+        <div class="container-fluid">
+          <span class="navbar-text">
+            <i class="fa-brands fa-instagram mx-2"></i>Instagram
+          </span>
+
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+  </button>
+<div class="justify-content-end">
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <h5>Add the caption of your post here</h5>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="fa fa-gear"></i>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+      <li><a class="dropdown-item" href="#">Profile</a></li>
+      <li><a class="dropdown-item" href="#">Accessibility</a></li>
+      <li><a class="dropdown-item" href="#">Privacy and Data</a></li>      
+      <li><a class="dropdown-item" href="#">Log out</a></li>
+    </ul>
+  </div>
+</div>
+        </div>
+</nav>
+
+      
+        <ul class="nav nav-tabs center" id="myTab" role="tablist" >
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="square-tab" data-bs-toggle="tab" data-bs-target="#square-tab-pane" type="button" role="tab" aria-controls="square-tab-pane" aria-selected="true">
+                  <i class="fa-solid fa-square"></i>
+            </button>
+          </li>
+
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="grid-tab" data-bs-toggle="tab" data-bs-target="#grid-tab-pane" type="button" role="tab" aria-controls="grid-tab-pane" aria-selected="false">
+                  <i class="fa-solid fa-grip"></i>
+              </button>
+          </li>
+        </ul>
+
+  <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="square-tab-pane" role="tabpanel" aria-labelledby="square-tab-pane" tabindex="0">
+            
+            <div class="container">
+              <div class="rectangle1-head" >
+                  <div class="rectangle1-head-photo">                 
+                      <h2><b>Amazing goal from Ronaldo !</b></h2>                                             
+                  </div>                                  
+                  <div class="rectangle1-head-elip">
+                      <h4>11/4/2017</h4>
+                  </div>
+               </div>            
+                <div class="rectangle1-photo">
+                     <img src="https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2018%2F0814%2Fr414363_1296x729_16%2D9.jpg" style="width : 100%"/>                            
+                </div>
+                <div class="rectangle1-foot">
+                    <h3>
+                        <p>
+                            <b>9453 Likes</b> 
+                        </p> 
+                        <p>
+                            One of the most beautiful goal of Ronaldo.                     
+                        </p>
+                    </h3> 
+                </div>         
+              </div>
+
+              <div class="container">
+                <div class="rectangle1-head" >
+                    <div class="rectangle1-head-photo">                 
+                        <h2><b>My crazy Dog Spark !</b></h2>                                             
+                    </div>
+                                    
+                    <div class="rectangle1-head-elip">
+                        <h4>11/3/2023</h4>
+                   </div>
+                </div>
+              
+              <div class="rectangle1-photo">
+                  <img src="https://www.redbarn.com/cdn/shop/articles/Responsible_Dog_Ownership_1200x.jpg?v=1663345594"
+                   style="width:100%">
+              </div>
+              
+                         
+                <div class="rectangle1-foot">
+                    <h3>
+                        <p>
+                            <b>2032 Likes</b> 
+                        </p> 
+                        <p>
+                            This is an example of a very good photo that you can post on Instagram. 
+                    
+                        </p>
+                    </h3>    
+                </div> 
+              </div>
+
+              <div class="container">
+                <div class="rectangle1-head" >
+                    <div class="rectangle1-head-photo">                 
+                        <h2><b>A beautiful smile !</b></h2>                                             
+                    </div>
+                                    
+                    <div class="rectangle1-head-elip">
+                        <h4>23/4/2020</h4>
+                   </div>
+                </div>
+              
+              <div class="rectangle1-photo">
+                  <img src="https://static.vecteezy.com/system/resources/thumbnails/024/641/526/small/beautiful-young-african-woman-with-confident-smile-generated-by-ai-free-photo.jpg"
+                   style="width:100%">
+              </div>
+              
+                         
+                <div class="rectangle1-foot">
+                    <h3>
+                        <p>
+                            <b>5043 Likes</b> 
+                        </p> 
+                        <p>
+                            The beauty of a smile. 
+                    
+                        </p>
+                    </h3>    
+                </div> 
+            </div>
+
+            <div class="container">
+              <div class="rectangle1-head" >
+                  <div class="rectangle1-head-photo">                 
+                      <h2><b>Tour Eiffel !</b></h2>                                             
+                  </div>
+                                  
+                  <div class="rectangle1-head-elip">
+                      <h4>23/4/2020</h4>
+                 </div>
+              </div>
+            
+            <div class="rectangle1-photo">
+                <img src="https://pbs.twimg.com/profile_images/1588173273623400454/_PefQRf7_400x400.jpg"
+                 style="width:100%">
+            </div>
+            
+                       
+              <div class="rectangle1-foot">
+                  <h3>
+                      <p>
+                          <b>4678 Likes</b> 
+                      </p> 
+                      <p>
+                          A place to visit !
+                  
+                      </p>
+                  </h3>    
+              </div> 
+            </div>
+
+            <div class="container">
+              <div class="rectangle1-head" >
+                  <div class="rectangle1-head-photo">                 
+                      <h2><b>Croatian city !</b></h2>                                             
+                  </div>
+                                  
+                  <div class="rectangle1-head-elip">
+                      <h4>23/4/2019</h4>
+                 </div>
+              </div>
+            
+            <div class="rectangle1-photo">
+                <img src="https://www.toptourist.com/wp-content/uploads/2015/09/fbgvsvadhvbn%C4%8DkdvbHDZB-1-1920x900.jpg"
+                 style="width:100%">
+            </div>
+            
+                       
+              <div class="rectangle1-foot">
+                  <h3>
+                      <p>
+                          <b>7632 Likes</b> 
+                      </p> 
+                      <p>
+                          Maybe you want to know where a part of Games of Thrones has been filmed !
+                  
+                      </p>
+                  </h3>    
+              </div> 
+            </div>
+
+            <div class="container">
+              <div class="rectangle1-head" >
+                  <div class="rectangle1-head-photo">                 
+                      <h2><b>A family picture !</b></h2>                                             
+                  </div>
+                                  
+                  <div class="rectangle1-head-elip">
+                      <h4>12/2/2015</h4>
+                 </div>
+              </div>
+            
+            <div class="rectangle1-photo">
+                <img src="https://img.freepik.com/premium-photo/portrait-african-american-family-taking-selfie-together-home-indoors-happy-parents-posing-with-their-children-smiling-camera-point-view-bonding-lifestyle-concept_568137-697.jpg?w=2000"
+                 style="width:100%">
+            </div>
+            
+                       
+              <div class="rectangle1-foot">
+                  <h3>
+                      <p>
+                          <b>1245 Likes</b> 
+                      </p> 
+                      <p>
+                          A good way to say good morning to you !
+                  
+                      </p>
+                  </h3>    
+              </div> 
+            </div>
+
+            <div class="container">
+              <div class="rectangle1-head" >
+                  <div class="rectangle1-head-photo">                 
+                      <h2><b>Code lines !</b></h2>                                             
+                  </div>
+                                  
+                  <div class="rectangle1-head-elip">
+                      <h4>12/2/2015</h4>
+                 </div>
+              </div>
+            
+            <div class="rectangle1-photo">
+                <img src="https://compote.slate.com/images/a40c1c95-e3d0-43a1-b9c7-6a5cb0b0db82.jpg"
+                 style="width:100%">
+            </div>
+            
+                       
+              <div class="rectangle1-foot">
+                  <h3>
+                      <p>
+                          <b>583 Likes</b> 
+                      </p> 
+                      <p>
+                          Only a few will understand !
+                  
+                      </p>
+                  </h3>    
+              </div> 
+            </div>
+
+            <div class="container">
+              <div class="rectangle1-head" >
+                  <div class="rectangle1-head-photo">                 
+                      <h2><b>Workshop !</b></h2>                                             
+                  </div>
+                                  
+                  <div class="rectangle1-head-elip">
+                      <h4>10/3/2013</h4>
+                 </div>
+              </div>
+            
+            <div class="rectangle1-photo">
+                <img src="https://www.acha.org/images/ACHA/Progrms_Svcs/AM22/2022-ACHA-054.JPG"
+                 style="width:100%">
+            </div>
+            
+                       
+              <div class="rectangle1-foot">
+                  <h3>
+                      <p>
+                          <b>932 Likes</b> 
+                      </p> 
+                      <p>
+                          Only a few will understand !
+                  
+                      </p>
+                  </h3>    
+              </div> 
+          </div>
+
+
+          </div>
+            
+                
+      <div class="tab-pane fade" id="grid-tab-pane" role="tabpanel" aria-labelledby="grid-tab" tabindex="0">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col col-4 d-flex">
+                  <img src="https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2018%2F0814%2Fr414363_1296x729_16%2D9.jpg" width="100%" height="80%"/>
+            </div>
+            <div class="col col-4 d-flex">
+                  <img src="https://www.redbarn.com/cdn/shop/articles/Responsible_Dog_Ownership_1200x.jpg?v=1663345594"
+                 style="width:100%">
+            </div>
+            <div class="col col-4 d-flex">
+                  <img src="https://static.vecteezy.com/system/resources/thumbnails/024/641/526/small/beautiful-young-african-woman-with-confident-smile-generated-by-ai-free-photo.jpg"
+                 style="width:100%">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col col-4 d-flex">
+                <img src="https://www.radiofrance.fr/s3/cruiser-production/2022/09/ee5a654d-cd50-409f-b729-c60d8a29d0da/870x489_035-bjl8436584.jpg"
+                    style="width:100%" height="80%">
+            </div>
+            <div class="col col-4 d-flex">
+                <img src="https://travel2next.com/wp-content/uploads/beautiful-cities-in-croatia.jpg"
+                width="100%" height="100%">
+                  
+            </div>
+            <div class="col col-4 d-flex">
+                <img src="https://img.freepik.com/premium-photo/portrait-african-american-family-taking-selfie-together-home-indoors-happy-parents-posing-with-their-children-smiling-camera-point-view-bonding-lifestyle-concept_568137-697.jpg?w=2000"
+                    style="width:100%">
+            </div>
+        </div>
+
+        <div class="row">
+          <div class="col col-4 d-flex">
+              <img src="https://compote.slate.com/images/a40c1c95-e3d0-43a1-b9c7-6a5cb0b0db82.jpg"
+              width="100%" height="80%">
+          </div>
+          <div class="col col-4 d-flex">
+              <img src="https://www.acha.org/images/ACHA/Progrms_Svcs/AM22/2022-ACHA-054.JPG"
+                  style="width:100%">
+          </div>
+          <div class="col col-4 d-flex">
+              <img src="https://media.gettyimages.com/id/639967230/photo/toothy-smile-beauty-lips-beautiful-african-ethnicity-young-women.jpg?s=612x612&w=gi&k=20&c=NaSxEHz-pJmBQgB4S09Cvb2wIgJ5oaIRGwEeOFihWYY=" width="100%">
+          </div>
+      </div>
+
+
+
+        </div> 
+
+      </div> 
+
+</div>
+
+
+            
+            
+
+
+      
+
+      
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+   
+  </body>
+</html>
